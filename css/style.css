@@ -99,6 +99,7 @@ body {
 
 button {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 4px;
@@ -113,14 +114,6 @@ button {
 }
 
 .button-secondary {
-  width: 323px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-}
-
-.button-tertiary {
   width: 323px;
   display: flex;
   flex-wrap: wrap;
